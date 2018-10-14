@@ -6,7 +6,7 @@ public class SimplePlatformController : MonoBehaviour {
 
     [HideInInspector]
     public bool isFacingRight = true,
-        jump = true;
+        jump = false;
 
     [SerializeField]
     private float moveForce = 365f,

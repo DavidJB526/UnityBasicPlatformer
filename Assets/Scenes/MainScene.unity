@@ -233,7 +233,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400020, guid: 6aa187bc6339843479c03fdfd71404a3, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 1.76
+      value: 20.3
       objectReference: {fileID: 0}
     - target: {fileID: 400020, guid: 6aa187bc6339843479c03fdfd71404a3, type: 2}
       propertyPath: m_LocalPosition.z
@@ -258,21 +258,6 @@ Prefab:
     - target: {fileID: 400020, guid: 6aa187bc6339843479c03fdfd71404a3, type: 2}
       propertyPath: m_RootOrder
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 20449741756056602, guid: 6aa187bc6339843479c03fdfd71404a3,
-        type: 2}
-      propertyPath: m_BackGroundColor.r
-      value: 0.7028302
-      objectReference: {fileID: 0}
-    - target: {fileID: 20449741756056602, guid: 6aa187bc6339843479c03fdfd71404a3,
-        type: 2}
-      propertyPath: m_BackGroundColor.g
-      value: 0.9045289
-      objectReference: {fileID: 0}
-    - target: {fileID: 20449741756056602, guid: 6aa187bc6339843479c03fdfd71404a3,
-        type: 2}
-      propertyPath: m_BackGroundColor.b
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 6aa187bc6339843479c03fdfd71404a3, type: 2}
@@ -334,6 +319,7 @@ GameObject:
   - component: {fileID: 2134865475}
   - component: {fileID: 2134865474}
   - component: {fileID: 2134865473}
+  - component: {fileID: 2134865477}
   m_Layer: 0
   m_Name: DeathTrigger
   m_TagString: Untagged
@@ -372,7 +358,7 @@ MeshRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2134865472}
-  m_Enabled: 1
+  m_Enabled: 0
   m_CastShadows: 1
   m_ReceiveShadows: 1
   m_DynamicOccludee: 1
@@ -415,9 +401,20 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2134865472}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 220, y: -20, z: 0}
+  m_LocalPosition: {x: 220, y: -40, z: 0}
   m_LocalScale: {x: 500, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2134865477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2134865472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 640a02579709bbf498213b912e295f56, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
